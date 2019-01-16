@@ -29,5 +29,29 @@ public class Main {
         }
         list[list.length-1]=0;
     }
+    boolean isEmpty()
+    {
+        if (list[0] == 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    }
+    boolean isFull()
+    {
+        if(list[list.length-1]==0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    }
 
 }
